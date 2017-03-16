@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F10235A1E72C9E300591E5E /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1023591E72C9E300591E5E /* Templates.swift */; };
+		4F10235C1E72CA7200591E5E /* UploadCerti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F10235B1E72CA7200591E5E /* UploadCerti.swift */; };
+		4F10235E1E72CA8500591E5E /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F10235D1E72CA8500591E5E /* Share.swift */; };
 		4F9C955E1E710E9F00C4FCC2 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C955D1E710E9F00C4FCC2 /* Slider.swift */; };
+		4FFC9B621E725935005D16E2 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC9B611E725935005D16E2 /* Dashboard.swift */; };
+		4FFC9B641E72595C005D16E2 /* MyCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC9B631E72595C005D16E2 /* MyCV.swift */; };
+		4FFC9B661E7259C6005D16E2 /* CVContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC9B651E7259C6005D16E2 /* CVContent.swift */; };
 		A8A642FE1E699C8500B61E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A642FD1E699C8500B61E35 /* AppDelegate.swift */; };
 		A8A643001E699C8500B61E35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A642FF1E699C8500B61E35 /* ViewController.swift */; };
 		A8A643031E699C8600B61E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A643011E699C8600B61E35 /* Main.storyboard */; };
@@ -38,7 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F1023591E72C9E300591E5E /* Templates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
+		4F10235B1E72CA7200591E5E /* UploadCerti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadCerti.swift; sourceTree = "<group>"; };
+		4F10235D1E72CA8500591E5E /* Share.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
 		4F9C955D1E710E9F00C4FCC2 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slider.swift; path = ../Slider.swift; sourceTree = "<group>"; };
+		4FFC9B611E725935005D16E2 /* Dashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		4FFC9B631E72595C005D16E2 /* MyCV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCV.swift; sourceTree = "<group>"; };
+		4FFC9B651E7259C6005D16E2 /* CVContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVContent.swift; sourceTree = "<group>"; };
 		A8A642FA1E699C8500B61E35 /* cvbuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cvbuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A642FD1E699C8500B61E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8A642FF1E699C8500B61E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +117,12 @@
 			children = (
 				A8A642FD1E699C8500B61E35 /* AppDelegate.swift */,
 				A8A642FF1E699C8500B61E35 /* ViewController.swift */,
+				4FFC9B651E7259C6005D16E2 /* CVContent.swift */,
+				4FFC9B631E72595C005D16E2 /* MyCV.swift */,
+				4FFC9B611E725935005D16E2 /* Dashboard.swift */,
+				4F10235D1E72CA8500591E5E /* Share.swift */,
+				4F1023591E72C9E300591E5E /* Templates.swift */,
+				4F10235B1E72CA7200591E5E /* UploadCerti.swift */,
 				4F9C955D1E710E9F00C4FCC2 /* Slider.swift */,
 				A8A643011E699C8600B61E35 /* Main.storyboard */,
 				A8A643071E699C8700B61E35 /* Assets.xcassets */,
@@ -273,8 +291,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A643061E699C8700B61E35 /* cvbuilder.xcdatamodeld in Sources */,
+				4F10235A1E72C9E300591E5E /* Templates.swift in Sources */,
+				4F10235C1E72CA7200591E5E /* UploadCerti.swift in Sources */,
 				A8A643001E699C8500B61E35 /* ViewController.swift in Sources */,
+				4FFC9B641E72595C005D16E2 /* MyCV.swift in Sources */,
+				4F10235E1E72CA8500591E5E /* Share.swift in Sources */,
+				4FFC9B621E725935005D16E2 /* Dashboard.swift in Sources */,
 				4F9C955E1E710E9F00C4FCC2 /* Slider.swift in Sources */,
+				4FFC9B661E7259C6005D16E2 /* CVContent.swift in Sources */,
 				A8A642FE1E699C8500B61E35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

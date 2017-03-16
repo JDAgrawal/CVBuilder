@@ -13,9 +13,20 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // get current number of times app has been launched
+        let currentCount = UserDefaults.standard.integer(forKey: "launchCount")
+        
+        // increment received number by one
+        UserDefaults.standard.set(currentCount+1, forKey:"launchCount")
+        
+        // save changes to disk
+        UserDefaults.standard.synchronize()
+
+    
         // Override point for customization after application launch.
         return true
     }
